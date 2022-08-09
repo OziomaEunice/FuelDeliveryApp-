@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Options"
+    android:background="@drawable/carbackground">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="341dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/purple_200"
+        android:fontFamily="@font/aclonica"
+        android:text="Fill in Your Car Details:"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/PlateNumber"
+        android:layout_width="146dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:text="Plate Number:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/ThePlateNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/Make"
+        android:layout_width="139dp"
+        android:layout_height="34dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:text="Make:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PlateNumber" />
+
+    <EditText
+        android:id="@+id/TheMake"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="18dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ThePlateNumber" />
+
+    <TextView
+        android:id="@+id/color"
+        android:layout_width="138dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:text="Color:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Make" />
+
+    <EditText
+        android:id="@+id/TheColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textAlignment="textStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TheMake" />
+
+    <TextView
+        android:id="@+id/clientFuel"
+        android:layout_width="365dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="92dp"
+        android:background="@color/purple_200"
+        android:fontFamily="@font/aclonica"
+        android:text="How much fuel do you want to refill in your car?"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/color" />
+
+    <TextView
+        android:id="@+id/poundSterling"
+        android:layout_width="31dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="29dp"
+        android:text="£"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clientFuel" />
+
+    <EditText
+        android:id="@+id/payement"
+        android:layout_width="75dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="264dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textAlignment="textStart"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clientFuel" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="125dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/lalezar"
+        android:text="BACK"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payement" />
+
+    <Button
+        android:id="@+id/ok2"
+        android:layout_width="122dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="@font/lalezar"
+        android:text="OK"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clientFuel" />
+
+    <TextView
+        android:id="@+id/minAmountExample"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="4dp"
+        android:text="min. £20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/payement" />
+</androidx.constraintlayout.widget.ConstraintLayout>
