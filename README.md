@@ -7,4 +7,4 @@ This coursework was completed in March 2022.
 
 __________________________________________________
 
-<sub>__Designed by Ozioma E. Onwubiko__</sub> 
+<sub>Designed by Ozioma E. Onwubiko</sub>
