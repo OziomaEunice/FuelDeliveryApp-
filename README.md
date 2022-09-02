@@ -1,6 +1,6 @@
 # FuelDeliveryApp-
 
-This is an app I made during for my coursework in Mobile App Development module at uni. 
+This is an app I made for my coursework in Mobile App Development module at uni. 
 This is the first app I created.
 
 
